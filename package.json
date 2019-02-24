@@ -1,0 +1,25 @@
+{
+  "name": "@viewstools/use-masked-input",
+  "description": "A React hook to mask an input using text-mask.",
+  "version": "1.0.0",
+  "main": "use-masked-input.cjs.js",
+  "private": false,
+  "license": "BSD-3-Clause",
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "bugs": {
+    "url": "https://github.com/viewstools/use-masked-input/issues"
+  },
+  "homepage": "https://github.com/viewstools/use-masked-input#readme",
+  "scripts": {
+    "prepare": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "rollup": "^1.2.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3"
+  },
+  "dependencies": {
+    "text-mask-core": "^5.1.2"
+  }
+}
