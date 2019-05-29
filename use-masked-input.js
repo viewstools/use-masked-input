@@ -28,15 +28,7 @@ export default function useMaskedInput({
     })
 
     textMask.current.update(value)
-  }, [
-    input.current,
-    guide,
-    keepCharPositions,
-    mask,
-    pipe,
-    placeholderChar,
-    showMask,
-  ])
+  }, [input, guide, keepCharPositions, mask, pipe, placeholderChar, showMask])
 
   return event => {
     if (textMask.current) {
