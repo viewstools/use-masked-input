@@ -10,7 +10,7 @@ export default function useMaskedInput({
   pipe,
   placeholderChar,
   showMask,
-  value = '',
+  initialValue = '',
 }) {
   let textMask = useRef(null)
 
@@ -27,7 +27,7 @@ export default function useMaskedInput({
       showMask,
     })
 
-    textMask.current.update(value)
+    textMask.current.update(initialValue)
   }, [input, guide, keepCharPositions, mask, pipe, placeholderChar, showMask])
 
   return event => {
