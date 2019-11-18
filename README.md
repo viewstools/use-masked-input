@@ -49,7 +49,7 @@ Here are the possible configuration values:
 - `pipe`. A function to modify the conformed value before it is displayed on the screen. [See more](https://github.com/text-mask/text-mask/blob/master/componentDocumentation.md#pipe).
 - `placeholderChar`. A string representing the fillable spot in the mask. Defaults to an underscore (`_`). [See more](https://github.com/text-mask/text-mask/blob/master/componentDocumentation.md#placeholderchar).
 - `showMask`. A boolean that tells the component to display the mask as a placeholder in place of the regular placeholder when the input element value is empty. _Defaults to `false`_. [See more](https://github.com/text-mask/text-mask/blob/master/componentDocumentation.md#showmask).
-- `initialValue`. A string with the value to use as a starting point.
+- `value`. A string with the value. Defaults to ``.
 ```
 
 ## Known issues

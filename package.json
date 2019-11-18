@@ -1,7 +1,7 @@
 {
   "name": "@viewstools/use-masked-input",
   "description": "A React hook to mask an input using text-mask.",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "main": "use-masked-input.cjs.js",
   "private": false,
   "license": "BSD-3-Clause",
