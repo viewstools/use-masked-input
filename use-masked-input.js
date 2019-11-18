@@ -1,5 +1,5 @@
 import { createTextMaskInputElement } from 'text-mask-core'
-import { useEffect, useRef } from 'react'
+import { useLayoutEffect, useRef } from 'react'
 
 export default function useMaskedInput({
   guide,
@@ -30,7 +30,7 @@ export default function useMaskedInput({
     textMask.current.update(value)
   }
 
-  useEffect(init, [
+  useLayoutEffect(init, [
     guide,
     keepCharPositions,
     mask,
@@ -39,7 +39,7 @@ export default function useMaskedInput({
     showMask,
   ])
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (value === input.current.value) return
 
     init()
